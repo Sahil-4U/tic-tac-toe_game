@@ -1,5 +1,21 @@
+body{
+  overflow: hidden;
+}
 .icon{
   color: gold;
   font-size: 2rem;
 
+}
+.grid{
+  padding-left: 44%;
+  margin: 20px auto;
+  display: grid;
+  grid-template-columns: repeat(3,100px);
+  gap: 2px;
+}
+.grid div{
+  background-color: #F5F4F2;
+  border: 1px solid green;
+  padding: 10px;
+  text-align: center;
 }
